@@ -1,12 +1,10 @@
-type ProductId = string;
-
 type Category = {
     id: string;
     name: string;
 };
 
 type Product = {
-    id: ProductId;
+    id: string;
     name: string;
     price: number;
     category: Category;
